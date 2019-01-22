@@ -1,18 +1,16 @@
 package net.gingertheology.shushr;
 
-import java.io.File;
-
 public class Track {
 
-    private File trackFile;
+    private int trackFile;
     private String trackName;
 
-    public Track(File trackFile, String trackName) {
+    public Track(int trackFile, String trackName) {
         this.trackFile = trackFile;
         this.trackName = trackName;
     }
 
-    public File getTrackFile() {
+    public int getTrackFile() {
         return this.trackFile;
     }
 
